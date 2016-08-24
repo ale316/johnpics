@@ -1,13 +1,13 @@
-<div class="pic"></div>
-<style>
-	html, body, .pic {
-		margin: 0;
-	}
-	.pic {
-		background: url('images/[[= model.pic ]]') no-repeat center center fixed;
-		background-size: cover;
-		width: 100%;
-		height: 100%;
-	}
-</style>
+---
+layout: master.dot
+---
+
+[[##section:
+    <div class="pic"></div>
+    <style>
+        .pic {
+            background: url('images/[[= model.pic ]]') no-repeat center center fixed;
+        }
+    </style>
+#]]
 
