@@ -6,3 +6,16 @@ html, body, .pic {
 .pic {
     background-size: cover !important;
 }
+
+.more-john {
+    background-color: #fff;
+    bottom: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 2em;
+    left: 50%;
+    outline: none;
+    padding: 15px 40px;
+    position: fixed;
+    transform: translate(-50%, -50%);
+}
