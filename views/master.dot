@@ -6,7 +6,7 @@
     </head>
     <body>
         [[= layout.section ]]
-        <button class="more-john">&#127881 &#128586 &#127881</button>
+        <button class="more-john">more john</button>
         <script src="scripts/main.js"></script>
     </body>
 </html>
