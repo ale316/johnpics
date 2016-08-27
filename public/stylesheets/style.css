@@ -4,7 +4,7 @@ html, body, .pic {
     height: 100%;
 }
 .pic {
-    background-size: cover !important;
+    background-size: contain !important;
 }
 
 .more-john {
@@ -15,9 +15,8 @@ html, body, .pic {
     color: #444;
     cursor: pointer;
     font-size: 1.3em;
-    left: 50%;
     outline: none;
     padding: 13px 40px;
     position: fixed;
-    transform: translate(-50%, -50%);
+    right: 30px;
 }
