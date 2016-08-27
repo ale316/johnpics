@@ -4,6 +4,7 @@ layout: master.dot
 
 [[##section:
     <div class="pic"></div>
+    <h2 class="instructions">click the pic to get more john</h2>
     <style>
         .pic {
             background: url('images/[[= model.pic ]]') no-repeat center center fixed;

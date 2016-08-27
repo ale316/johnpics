@@ -3,20 +3,20 @@ html, body, .pic {
     width: 100%;
     height: 100%;
 }
+
+body {
+    background-color: #111;
+}
+
 .pic {
     background-size: contain !important;
 }
 
-.more-john {
-    background-color: #3de1e2;
-    bottom: 30px;
-    border: none;
-    border-bottom: 5px solid #2facad;
-    color: #444;
-    cursor: pointer;
-    font-size: 1.3em;
-    outline: none;
-    padding: 13px 40px;
-    position: fixed;
-    right: 30px;
+.instructions {
+  color: #fff;
+  position: fixed;
+  left: 50%;
+  bottom: 30px;
+  font-family: sans-serif;
+  transform: translateX(-50%);
 }
